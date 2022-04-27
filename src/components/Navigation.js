@@ -1,60 +1,91 @@
-import React,{useState} from 'react'
+import React, { useState } from "react";
 import {
   MDBContainer,
   MDBNavbar,
   MDBNavbarBrand,
   MDBNavbarToggler,
-  MDBNavbarNav,
-  MDBNavbarItem,
   MDBIcon,
-  MDBNavbarLink,
+  MDBNavbarNav,
   MDBCollapse,
-  MDBBtn
-} from 'mdb-react-ui-kit';
-import logo from '../assets/logo.png'
-export default function Navigation() {
-  const [showNav, setShowNav] = useState(false);
+  MDBBtn,
+} from "mdb-react-ui-kit";
+import logo from "../assets/logo.png";
+
+export default function App() {
+  const [showBasic, setShowBasic] = useState(false);
+
   return (
-    <>
-       <MDBNavbar expand='lg' light className='for-height fixed-top pt-0 pt-md-4 '>
+    <MDBNavbar  expand="lg" className="py-2 py-md-4 for-height  " fixed='top'>
       <MDBContainer fluid>
+        <MDBNavbarBrand className="d-lg-none" href="#">
+          <img src={logo} alt="" className="img-fluid" />
+        </MDBNavbarBrand>
+
         <MDBNavbarToggler
-          type='button'
-          aria-expanded='false'
-          aria-label='Toggle navigation'
-          onClick={() => setShowNav(!showNav)}
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick={() => setShowBasic(!showBasic)}
         >
-          <MDBIcon icon='bars' fas />
+          <MDBIcon icon="bars" fas />
         </MDBNavbarToggler>
-        <MDBNavbarBrand className='mx-auto my-auto mt-2 nav-logo d-sm-block d-md-none d-lg-none text-center fixed' href='#'><img src={logo} alt="" /></MDBNavbarBrand>
-        <MDBCollapse navbar show={showNav}>
-          <MDBNavbarNav>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className='mt-3 me-3 link-color'>Home</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className='mt-3 me-3 link-color'>LOF platform</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className='mt-3 me-3 link-color'>Become a creator</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href='#' className='mt-3 me-3 link-color'  >FAQ</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarBrand className='mx-auto my-auto mt-2 nav-logo d-none d-md-block d-lg-block' href='#'><img src={logo} alt="" /></MDBNavbarBrand>
-            <div className='my-auto mb-3 me-2'>
-            <MDBBtn  className='me-2 for-btn1 mt-2' type='button'>
-          Sign up
-        </MDBBtn>
-            <MDBBtn  className='me-2 for-btn mt-2' type='button'>
-          Sign in
-        </MDBBtn>
-            </div>
+
+        <MDBCollapse navbar show={showBasic} className="">
+          <MDBNavbarNav className="mr-auto mb-2 mb-lg-0  justify-content-between ">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link link-color active" href="#home">
+                Home <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#platform">
+                LOF platform
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#becomeCreator">
+                Become a creator
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-color" href="#faq">
+                FAQ
+                </a>
+              </li>
+            </ul>
+
+            <MDBNavbarBrand className="d-none d-lg-block" href="#">
+              <img src={logo} alt="" className="img-fluid logo" />
+            </MDBNavbarBrand>
+
+            {/* <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link btn for-btn" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn for-btn1" href="#">
+                  Link
+                </a>
+              </li>
+            </ul> */}
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link btn for-btn1" href="#">
+                Sign up
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn for-btn" href="#">
+                Sign in
+                </a>
+              </li>
+            </ul>
           </MDBNavbarNav>
-           
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
-    </>
-  )
+  );
 }
