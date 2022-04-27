@@ -10,7 +10,7 @@ export default function WhyLof() {
 <>
 <section className='WhyLof-bg'>
     <MDBContainer>
-        <MDBRow>
+        <MDBRow className='pt-5'>
             <MDBCol md={12} sm={12} lg={12} className='WhyLof-head text-center py-3 pt-5 p-5'>
         <h1>Why LOF?</h1>
             </MDBCol>

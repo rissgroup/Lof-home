@@ -30,9 +30,6 @@ font-size: 15px;
     font-family: 'Hind Vadodara';
     
 }
-.navbar-brand img{
-    margin-right: 11rem !important;
-}
 
 @media only screen and (max-width: 600px) {
     .navbar-brand img {
@@ -44,3 +41,12 @@ font-size: 15px;
         backdrop-filter: blur(100px) !important;
     }
   }
+  .navbar-toggler{
+color: white !important;
+  }
+  .nav-link{
+margin: 0px 5px ;
+  }
+ .logo{
+    margin-right: 170px !important;
+ }

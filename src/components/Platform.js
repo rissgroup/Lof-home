@@ -110,12 +110,12 @@ export default function LoftPlatform() {
             </div>
             <div className="slider-rotate__item" onClick={ImageSixClick}>
               <span className="position">6</span>
-              <img src={Mobile6} alt="" />
-            </div>
-            <div className="slider-rotate__item" onClick={ImageSevenClick}>
-              <span className="position">7</span>
               <img src={Mobile7} alt="" />
             </div>
+            {/* <div className="slider-rotate__item" onClick={ImageSevenClick}>
+              <span className="position">7</span>
+              <img src={Mobile7} alt="" />
+            </div> */}
             <span
               className="slider-rotate__arrow slider-rotate__arrow--right js-slider-rotate-arrow "
               data-action="next"

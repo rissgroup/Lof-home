@@ -10,12 +10,16 @@ import {
   import reddit from '../assets/icons/reddit.svg';
   import discord from '../assets/icons/discord.svg';
   import heart from '../assets/icons/Herat purple 1.svg';
+import { Link } from 'react-router-dom';
 
 
 export default function Bottomnav() {
   return (
     <>
-    <MDBContainer fluid>
+    <section className="fixed-bottom">
+
+    
+    <MDBContainer fluid fixed='bottom'>
           <MDBRow className="py-2">
             <MDBCol md={3} sm={12} lg={3} className="text-sm-center">
               <a href="" className="me-1">
@@ -44,18 +48,19 @@ export default function Bottomnav() {
               lg={6}
               className="text-lg-center text-md-center text-sm-start text-center "
             >
-              <a href="" className="me-lg-4 me-md-4 me-2 text-white for-size ">
+              <Link to="termandConditions" className="me-lg-4 me-md-4 me-2 text-white for-size ">
                 Term and Condition
-              </a>
-              <a href="" className="me-lg-4 me-md-4 me-2 text-white for-size">
+              </Link>
+              <Link to="privacy" className="me-lg-4 me-md-4 me-2 text-white for-size">
                 Privacy
-              </a>
-              <a href="" className="me-lg-4 me-md-4 me-2 text-white for-size">
+              </Link>
+              <Link to="riskpolicy" className="me-lg-4 me-md-4 me-2 text-white for-size">
                 Risk Policy
-              </a>
-              <a href="" className="me-lg-4 me-md-4 me-2 text-white for-size">
+              </Link>
+              <Link to="" className="me-lg-4 me-md-4 me-2 text-white for-size">
                 Contact
-              </a>
+              </Link>
+              
             </MDBCol>
             <MDBCol md={3} sm={12} lg={3}>
               <p className="for-txt text-white text-lg-end text-md-end text-center">
@@ -64,7 +69,7 @@ export default function Bottomnav() {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-    
+        </section>
     </>
   )
 }
