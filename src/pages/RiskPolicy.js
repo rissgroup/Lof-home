@@ -6,12 +6,12 @@ export default function TermsAndConditions() {
     <>
     <MDBContainer fluid className=" RiskPolicyDiv ">
         <MDBRow className='rowPadding'>
-          <MDBCol sm={12} className=" text-center">
+          <MDBCol sm={12} className=" text-center py-5">
                 <h1 className='text-light firstH1'  >Responsible Risk <span className='PinkColor'> Disclosure Policy</span></h1>
       
 
           </MDBCol>
-         
+          <MDBRow className='termsScroll'>
           <MDBCol sm={12} className='text-light p5-5'>
             <p>This document provides you with information about the risks associated with investment products in which you may invest through the services provided to you by Lonelyfans.
 Cryptocurrency is a digital representation of value that functions as a medium of exchange, a unit of account, or a store of value, but it does not have legal tender status. Cryptocurrencies are sometimes exchanged for FIAT currencies around the world, but they are not generally backed or supported by any government or central bank. Their value is completely derived by market forces of supply and demand, and they are more volatile than traditional currencies. The value of cryptocurrency may be derived from the continued willingness of market participants to exchange fiat currency for cryptocurrency, which may result in the potential for permanent and total loss of value of a particular cryptocurrency should the market for that cryptocurrency disappear. </p>
@@ -60,6 +60,7 @@ Any individual cryptocurrency may change or otherwise cease to operate as expect
 
         </MDBCol>
 
+        </MDBRow>
          
           </MDBRow>
     </MDBContainer>

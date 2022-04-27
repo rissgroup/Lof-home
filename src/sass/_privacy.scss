@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
 
 .for-PrivacyBg{
+  height: 100vh;
   background-image: url("../assets/bg-images/Become-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding: 0% 6%;
+
+
+  .termsScroll{
+
+    //background-color: teal;
+    height: 60vh !important;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+  }
   
 }
 
