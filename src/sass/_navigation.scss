@@ -1,0 +1,46 @@
+.for-height{
+    height: 50px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    z-index: 99;
+}
+.link-color{
+    color: #fff !important;
+    font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+}
+.for-btn{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border: 1px solid #D8AAF8 !important ;
+    text-transform: none !important;
+    font-family: 'Hind Vadodara';
+    color: #D8AAF8;
+
+}
+.for-btn1{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border: none !important ;
+    text-transform: none !important;
+    font-family: 'Hind Vadodara';
+    
+}
+.navbar-brand img{
+    margin-right: 11rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand img {
+    margin: 0px !important;
+    
+    }
+    .navbar>.container-fluid{
+        background: linear-gradient(154.21deg, rgba(81, 45, 168, 0.1) 0.8%, rgba(103, 58, 183, 0.1) 100.66%) !important ;
+        backdrop-filter: blur(100px) !important;
+    }
+  }

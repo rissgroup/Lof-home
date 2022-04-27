@@ -1,0 +1,75 @@
+.fullbg{
+    background-image: url(../assets/bg-images/faq-bg.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100%;
+    // background-attachment: fixed;
+}
+.faq-head{
+    position: static;
+    h1{
+        Font-family: Poppins;
+        Font-size: 130px;
+        color: #FFFFFF;
+        margin: 0px !important;
+    }
+}
+.header h5{
+    Font-family: AllRoundGothicW01-Bold;
+    font-size: 32px;
+    color: #FFFFFF !important;
+}
+.header h5 span{
+    color: #D8AAF8;
+    font-size: 32px;
+    Font-family: AllRoundGothicW01-Bold;
+}
+.que-ans h3{
+color: #D8AAF8;
+font-size: 18px;
+Font-family: AllRoundGothicW01-Bold;
+}
+.que-ans{
+  height: 80vh !important;
+  flex: 1 1 auto !important;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+// ::-webkit-scrollbar-thumb{
+//     background-color: #FF0000;
+// }
+.que-ans p{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-size-adjust: 20px;
+}
+.right-sec{
+    background: linear-gradient(154.21deg, rgba(81, 45, 168, 0.1) 0.8%, rgba(103, 58, 183, 0.1) 100.66%);
+    border-radius: 7px;
+}
+// @media screen and (min-device-width: 360px) and(max-device-width: 414px) {
+//     .que-ans{
+//       display: flex;
+//     }
+//   }
+
+
+@media screen and (max-device-width: 766px){ 
+
+    .faq-head h1{
+        text-align: center !important;
+        Font-size: 81px;
+        padding-top: 4rem;
+    }
+
+    .faq-head h5{
+        text-align: center !important;
+        
+    }
+
+ 
+
+ }

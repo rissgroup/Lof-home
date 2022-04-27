@@ -1,0 +1,89 @@
+.for-bg{
+    background-image: url(../assets/bg-images/hero-bg.png);
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    overflow: hidden;
+    height: 100%;
+  }
+  .main-heading{
+    h2{
+      font-family: 'poppins' !important;
+  font-style: normal;
+  font-weight: 900 !important;
+  font-size: 90px !important;
+  color: #fff !important;
+          }
+  h3{
+    font-family: 'AllRound1' ;
+  font-style: normal;
+  font-weight: 900 ;
+  font-size: 90px ;
+  color: #fff ;
+    padding-top: 220px;
+  }
+  h4{
+    font-family: 'AllRound1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+  }
+  }
+  .fans-heading h3{
+    font-family: 'AllRound1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+  padding-top: 180px;
+  }
+  .for-heading-color{
+    color:#D8AAF8;
+    ;
+  }
+  .heading-txt{
+    font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  }
+  .heading-txt1{
+    font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+  .for-bg{
+    height: 100vh;
+    background-image: url(../assets/bg-images/Become-bg.png);
+  }  
+    .main-heading
+    {
+    h3 {
+    padding-top: 200px;
+    font-size: 70px;
+    font-weight: 800;
+    }
+    h4{
+      font-size: 30px;
+      font-weight: 800;
+    }
+  }
+    .fans-heading  h3{
+        font-size: 40px;
+        font-weight: 600;
+        padding-top: 0px !important;
+      }
+   .heading-txt1{
+     font-size: 13px;
+   }   
+    }
+    
+  

@@ -1,0 +1,62 @@
+
+.RiskPolicyDiv{
+    padding-top: 7%;
+    //height: 100vh;
+    background-image: url("../assets/bg-images/Become-bg.png");
+    //background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+}
+
+li{
+    font-size: 1.1rem;
+}
+
+
+
+.rowPadding{
+    padding: 0rem 5.4rem;
+}
+
+.PinkColor{
+    color:#d8aaf8;
+}
+.fweight{
+    font-weight: 600;
+}
+
+.firstH1{
+    font-family: 'AllRound1';
+    font-style: normal;
+    font-size: 3rem;
+}
+.firstH2{
+    font-family: 'AllRound1';
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+ul li::before {
+    content: "\2022";
+    color: #d8aaf8;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: normal;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    
+  }
+
+}

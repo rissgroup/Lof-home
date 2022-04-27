@@ -1,0 +1,98 @@
+.creator-bg{
+    background-image: url(../assets/bg-images/Become-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+    .main-color{
+        color: #D8AAF8 ;
+    }
+    .creator-heading{
+    h1{
+        font-family: 'AllRound1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 280px;
+    }
+    p{
+        font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #fff;
+    }
+    .for-creator-btn{
+        background-color:#D8AAF8 !important;
+        border: none !important;
+        box-shadow: none !important;
+        border: none !important ;
+        text-transform: none !important;
+        font-family:  'AllRound';
+        margin-bottom: 50px;
+        font-weight: 600 !important;
+        font-size: 12px !important;
+        border-radius: 10px !important;
+        padding-bottom: 13px !important;
+        padding-top: 13px !important;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+       .creator-heading{
+           h1{
+               padding-top: 100px;
+           }
+           p{
+               font-size: 13px;
+           }
+       }
+      }
+      @media only screen and   (min-width:600px) and (max-width: 900px) {
+        .creator-heading{
+
+        h1 {
+            padding-top: 320px;
+            font-size: 50px;
+        }
+    }
+}
+
+
+    
+    // ************Animation Scss Start ****************
+    .slick-do{
+        transform: rotate(50deg);
+        // overflow: hidden;
+        width: 650px !important;
+        margin-top: 160px;
+        margin-left: -120px !important;
+    }
+    .for-img{
+        transform: rotate(-45deg);
+    }
+    .slick-arrow{
+        display: none !important;
+    }
+
+    @media only screen and   (min-width:600px) and (max-width: 900px) {
+            .slick-do{
+                margin-top: 280px;
+                width: 700px;
+            }
+    }
+    // ************Animation Scss End ****************
+    // ************Slider left Scss End ****************
+    .slick-do1{
+        transform: rotate(50deg);
+        // overflow: hidden !important;
+        width: 300px !important;
+        margin-top: 50px;
+        margin-left: -30px;
+        z-index: 0;
+    }
+    .for-img{
+        transform: rotate(-45deg);
+    }
+   
+    // ************Slider left Scss End ****************

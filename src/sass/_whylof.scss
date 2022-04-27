@@ -1,0 +1,70 @@
+.WhyLof-bg{
+    background-image: url(../assets/bg-images/Become-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.WhyLof-head{
+    h1{
+        font-family: 'AllRound1';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #fff;
+    }
+}
+.lof-feature{
+    p{
+        font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #fff;
+}
+img{
+    width: 80%;
+}
+}
+.feature-txt{
+    p{
+        font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+color: #fff;
+    }
+}
+.feature-bg{
+    background: linear-gradient(154.21deg, rgba(81, 45, 168, 0.1) 0.8%, rgba(103, 58, 183, 0.1) 100.66%); ;
+    backdrop-filter: blur(100px);
+   border-radius: 20px;
+   width: 520px !important;
+   margin-right: 50px;
+}
+.feature-bg1{
+    background: linear-gradient(154.21deg, rgba(81, 45, 168, 0.1) 0.8%, rgba(103, 58, 183, 0.1) 100.66%); ;
+    backdrop-filter: blur(100px);
+   border-radius: 20px;
+   width: 520px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .lof-feature{
+        img{
+            width: 42%;
+        }
+    }
+
+    .feature-txt{
+        p{
+            font-size: 12px;
+        }
+    }    
+    .feature-bg{
+        margin-bottom: 15px;
+    }
+    .feature-bg1{
+        margin-bottom: 15px;
+    }
+}
