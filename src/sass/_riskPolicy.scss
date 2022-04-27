@@ -1,7 +1,7 @@
 
 .RiskPolicyDiv{
     padding-top: 7%;
-    //height: 100vh;
+    height: 100vh;
     background-image: url("../assets/bg-images/Become-bg.png");
     //background-color: black;
     background-repeat: no-repeat;
@@ -57,6 +57,15 @@ ul li::before {
     width: 1em;
     margin-left: -1em;
     
+  }
+
+  .termsScroll{
+
+    //background-color: teal;
+    height: 60vh !important;
+    overflow: hidden;
+    overflow-y: scroll;
+   
   }
 
 }

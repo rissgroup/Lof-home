@@ -6,12 +6,13 @@ export default function PrivacyPolicy() {
   return (
    <>
    <section className='for-PrivacyBg'>
-    <MDBContainer>
+    <MDBContainer fluid>
      <MDBRow>
          <MDBCol className='privacy-heading py-5'>
-             <h1 className='text-center text-white py-5 fixed-top'>Privacy <span>Policy</span></h1>
+             <h1 className='text-center text-white py-5'>Privacy <span>Policy</span></h1>
          </MDBCol>
      </MDBRow>
+     <MDBRow className='termsScroll'>
      <section className='for-policy-txt'>
      <MDBRow>
          <MDBCol className='mainPrivacy-txt text-white'>
@@ -270,6 +271,7 @@ The source of the usage data is our analytics tracking system. This usage data m
          </MDBCol>
      </MDBRow>
      </section>
+     </MDBRow>
     </MDBContainer>
     </section>
    </>
