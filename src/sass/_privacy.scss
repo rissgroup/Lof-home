@@ -3,6 +3,7 @@
 .for-PrivacyBg{
   height: 100vh;
   background-image: url("../assets/bg-images/Become-bg.png");
+  //background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -36,7 +37,7 @@ p{
 font-family: 'Hind Vadodara';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 1.1rem;
 span{
   color:#D8AAF8;
   } 
@@ -61,7 +62,7 @@ p{
   font-family: 'Hind Vadodara';
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 1.1rem;
    }
    span{
     color:#D8AAF8;
@@ -70,11 +71,17 @@ p{
     font-weight: 600;
     font-size: 15px;
     } 
+
+    .circleSpan{
+      font-weight:300;
+      font-size:1.1rem;
+
+    }
    li {
     font-family: 'Hind Vadodara';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 1.1rem;
    }
    ul {
     list-style: none; /* Remove default bullets */
