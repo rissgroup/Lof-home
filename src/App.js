@@ -11,9 +11,9 @@ export default function App() {
    
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="termandConditions" element={<Terms/>} />
-        <Route path="privacy" element={<Privacy/>} />
-        <Route path="riskpolicy" element={<Riskpolicy/>} />
+        <Route path="/termandConditions" element={<Terms/>} />
+        <Route path="/privacy" element={<Privacy/>} />
+        <Route path="/riskpolicy" element={<Riskpolicy/>} />
       </Routes>
     </>
     

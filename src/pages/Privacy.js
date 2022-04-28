@@ -1,14 +1,17 @@
 import React from 'react'
-import { MDBCol, MDBContainer, MDBRow, MDBBtn } from "mdb-react-ui-kit";
+import { MDBCol, MDBContainer, MDBRow} from "mdb-react-ui-kit";
+import Navigation from '../components/Navigation';
+import Bottomnav from '../components/Bottomnav';
 
 
 export default function PrivacyPolicy() {
   return (
    <>
    <section className='for-PrivacyBg'>
+       <Navigation/>
     <MDBContainer fluid>
      <MDBRow>
-         <MDBCol className='privacy-heading py-5'>
+         <MDBCol className='privacy-heading pt-5 pb-3'>
              <h1 className='text-center text-white py-5'>Privacy <span>Policy</span></h1>
          </MDBCol>
      </MDBRow>
@@ -273,6 +276,7 @@ The source of the usage data is our analytics tracking system. This usage data m
      </section>
      </MDBRow>
     </MDBContainer>
+    <Bottomnav/>
     </section>
    </>
   )

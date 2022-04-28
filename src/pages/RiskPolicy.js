@@ -1,12 +1,22 @@
 import { MDBCol, MDBContainer, MDBRow  } from 'mdb-react-ui-kit'
-import React from 'react'
+import React from 'react';
+import Navigation from '../components/Navigation';
+import Bottomnav from '../components/Bottomnav';
+import Smoke from '../components/Smoke';
 
 export default function TermsAndConditions() {
   return (
     <>
+    
+    <section className="">
+    <Smoke/>
+    <Navigation/>
+    
+    
+    
     <MDBContainer fluid className=" RiskPolicyDiv ">
         <MDBRow className='rowPadding'>
-          <MDBCol sm={12} className=" text-center py-5">
+          <MDBCol sm={12} className=" text-center pt-2 pb-3" >
                 <h1 className='text-light firstH1'  >Responsible Risk <span className='PinkColor'> Disclosure Policy</span></h1>
       
 
@@ -64,8 +74,8 @@ Any individual cryptocurrency may change or otherwise cease to operate as expect
          
           </MDBRow>
     </MDBContainer>
-    
-    
+    <Bottomnav/>
+    </section>
     </>
   )
 }

@@ -7,9 +7,10 @@ import {
   MDBIcon,
   MDBNavbarNav,
   MDBCollapse,
-  MDBBtn,
+  
 } from "mdb-react-ui-kit";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export default function App() {
   const [showBasic, setShowBasic] = useState(false);
@@ -17,9 +18,9 @@ export default function App() {
   return (
     <MDBNavbar  expand="lg" className="py-2 py-md-4 for-height  " fixed='top'>
       <MDBContainer fluid>
-        <MDBNavbarBrand className="d-lg-none" href="#">
+        <Link className="navbar-brand d-lg-none" to='/'>
           <img src={logo} alt="" className="img-fluid" />
-        </MDBNavbarBrand>
+        </Link>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
@@ -34,9 +35,10 @@ export default function App() {
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0  justify-content-between ">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link link-color active" href="#home">
+                <Link class="nav-link link-color active" to="/">
                 Home <span class="sr-only">(current)</span>
-                </a>
+                </Link>
+                
               </li>
               <li class="nav-item">
                 <a class="nav-link link-color" href="#platform">
@@ -55,9 +57,10 @@ export default function App() {
               </li>
             </ul>
 
-            <MDBNavbarBrand className="d-none d-lg-block" href="#">
+            <Link className="navbar-brand d-none d-lg-block" to='/' >
+              
               <img src={logo} alt="" className="img-fluid logo" />
-            </MDBNavbarBrand>
+            </Link>
 
             {/* <ul class="navbar-nav">
               <li class="nav-item">
