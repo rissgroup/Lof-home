@@ -260,16 +260,121 @@ The source of the usage data is our analytics tracking system. This usage data m
         <ul>
             <li>Functionality – Lonelyfans uses these cookies so that we recognize you on our website and remember your previously selected preferences. These could include what language you prefer and the location you are in. A mix of first-party and third-party cookies are used. Lonelyfans uses these cookies to collect information about your visit to our website, the content you viewed, the links you followed, and information about your browser, device, and your IP address.</li>
             <li>Strictly Necessary cookies– let you move around the website and use essential features like secure areas. Without these cookies, we cannot provide the requested services.We use these strictly necessary cookies to:
-            <ul className='for-list-dot'>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            </li>
-            <li>To authenticate you</li>
+           <br/><span className='circleSpan'>o </span>Identify you as being logged in to the website and to authenticate you
+           <br/><span className='circleSpan'>o </span>Make sure you connect to the right service on the website when we make any changes to the way it works
+           <br/><span className='circleSpan'> o </span>For security purposes
+
+ </li>
+            <li>‘Performance’ cookies – collect information about how you use the website, e.g. which pages you visit, and if you experience any errors. These cookies do not collect any information that could identify you and are only used to help us improve how the website works. We use performance cookies to:
+            <br/><span className='circleSpan'>o </span>Help us improve the website by measuring any errors that occur
+            <br/><span className='circleSpan'>o </span>Test different designs for the website
+
+
+</li>
         </ul>
          </MDBCol>
      </MDBRow>
+
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >How to manage cookies</h4>
+           <p>You can set your browser not to accept cookies, allaboutcookies.org tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.</p>
+         
+         </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Privacy policies of other websites</h4>
+          <p>The Lonelyfans website/platform contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.</p>
+         </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Changes to our privacy policy</h4>
+         <p>Lonelyfans keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 17th of March 2022.</p>
+          </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >How to contact us</h4>
+            <p>If you have any questions about Lonelyfans’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us at contact@lofcrypto.com.</p>
+           </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Sharing Information with Affiliates and Other Third Parties</h4>
+            <p>We do not sell or rent your PD to third-parties for marketing purposes. You understand, and we undertake, that we will provide your PD through our platform strictly to the corporate stakeholders that are using our platform. However, for data aggregation purposes we may use your non PD, which might be sold to other parties at our discretion. Any such data aggregation would not contain any of your PD. We may provide your PD to third-party service providers we hire to provide services to us. These third-party service providers may include but are not limited to: payment processors, web analytics companies, advertising networks, call centers, data management services, help desk providers, accountants, law firms, auditors, shopping cart and email service providers, and shipping companies.</p>
+             </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Retaining and Destroying Your PD</h4>
+           <p>We only retain the personal information collected from a User for as long as the User’s account is active on our platform, or otherwise for a limited period of time as long as we need it to fulfill the purposes for which we have initially collected it, unless otherwise required by law.
+            <br/>
+            In some cases, it is not possible for us to specify in advance the periods for which your personal data will be retained. In such cases, we will determine the period of retention based on the 2-year criteria, after your relationship with us ends.
+            <br/><br/>
+            We may retain your personal data where such retention is necessary for compliance with a legal obligation to which we are subject, or in order to protect your vital interests or the vital interests of another natural person.
+            </p>
+             </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >California Privacy Rights</h4>
+          <p>In addition to the rights provided for above, if you are a California or US resident, you have the right to request information from us regarding whether we share certain categories of your personal information with third parties for the third parties' direct marketing purposes. To the extent we share your personal information in this way, you may receive the following information: 
+        <br/><span>(a) </span>the categories of information we disclosed to third parties for the third parties' direct marketing purposes during the preceding calendar year; and
+
+        <br/>
+        <span>(b) </span> the names and addresses of third parties that received such information, or if the nature of their business cannot be determined from the name, then examples of the products or services marketed.
+        </p>    
+        <p className='pt-4'>Effective January 1st, 2020, pursuant to the California Consumer Privacy Act of 2018 (“CCPA”), California residents have certain rights in relation to their personal information, subject to limited exceptions. Any terms defined in the CCPA have the same meaning when used in this California Privacy Rights section.
+        </p> 
+
+        <ul>
+            <li>For personal information collected by us during the preceding 12 months that is not otherwise subject to an exception, California residents have the right to access and delete their personal information. Lonelyfans will not discriminate against those who exercise their rights. Specifically, if you exercise your rights, we will not deny you services, charge you different prices for services or provide you a different level or quality of services.</li>
+            <li>To the extent we sell your personal information to third parties, you also have the right to request that we disclose to you: (i) the categories of your personal information that we sold, and (ii) the categories of third parties to whom your personal information was sold. You have the right to direct us not to sell your personal information. Lonelyfans does not sell your personal information in its ordinary course of business and will never sell your personal information to third parties without your explicit consent.
+                <br/><br/>
+                Should Lonelyfans engage in any of the activities listed in this section, your ability to exercise these rights will be made available to you in your account settings. You can exercise your rights by going contacting us via email so that we may consider your request.
+                <br/><br/>
+                If you are a US resident, you may designate an authorized agent to make a request to access or a request to delete on your behalf.  We will respond to your authorized agent's request if they submit proof that they are registered with the California Secretary of State to be able to act on your behalf, or submit evidence you have provided them with power of attorney pursuant to California Probate Code section 4000 to 4465. We may deny requests from authorized agents who do not submit proof that they have been authorized by you to act on their behalf, or are unable to verify their identity.
+
+            </li>
+        </ul>
+           </MDBCol>
+     </MDBRow>
+
+     
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Transferring PD From the European Economic Area</h4>
+           <p>PD that we collect from you may be stored, processed, and transferred between any of the countries in which we operate. The European Union and the UK has not found the United States and some other countries to have an adequate level of protection of PD under Article 45 of the GDPR. Our company relies on derogations for specific situations as defined in Article 49 of the GDPR. For European Union customers and users, with your consent, your PD may be transferred outside the European Union to the United States  and or other countries. We will use your PD to provide the services, and/or information you request from us to perform a contract with you or to satisfy a legitimate interest of our company in a manner that does not outweigh your freedoms and rights. Wherever we transfer, process or store your PD, we will take reasonable steps to protect it. We will use the information we collect from you in accordance with our privacy notice. By using our website, services, or products, you agree to the transfers of your PD described within this section.</p>
+    
+           </MDBCol>
+     </MDBRow>
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Changes to Our Privacy Policy</h4>
+           <p>We reserve the right to change this privacy notice at any time. If our company decides to change this privacy notice, we will post those changes on our website so that our users and customers are always aware of what information we collect, use, and disclose. If at any time we decide to disclose or use your PD in a method different from that specified at the time it was collected, we will provide advance notice by email (sent to the email address on file in your account). 
+<br/><br/>Otherwise we will use and disclose our users’ and customers’ PD in agreement with the privacy notice in effect when the information was collected. In all cases, your continued use of our website, services, and products after any change to this privacy notice will constitute your acceptance of such change.
+</p>
+           </MDBCol>
+     </MDBRow>
+
+     <MDBRow>
+         <MDBCol className='defination-part pt-5 text-white'>
+           <h4 >Changes to Our Privacy Policy</h4>
+          <p>We reserve the right to change this privacy notice at any time. If our company decides to change this privacy notice, we will post those changes on our website so that our users and customers are always aware of what information we collect, use, and disclose. If at any time we decide to disclose or use your PD in a method different from that specified at the time it was collected, we will provide advance notice by email (sent to the email address on file in your account). 
+<br/><br/>Otherwise we will use and disclose our users’ and customers’ PD in agreement with the privacy notice in effect when the information was collected. In all cases, your continued use of our website, services, and products after any change to this privacy notice will constitute your acceptance of such change.
+</p>
+           </MDBCol>
+     </MDBRow>
+
      </section>
      </MDBRow>
     </MDBContainer>
