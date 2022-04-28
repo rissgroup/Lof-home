@@ -20,8 +20,8 @@ export default function WhyLof() {
               className="WhyLof-head text-center py-3 pt-5 p-5"
               
             >
-              {/* <h1>Why LOF?</h1> */}
-              <div className="concept concept-six mb-4 ">
+              <h1>Why LOF?</h1>
+              {/* <div className="concept concept-six mb-4 ">
               <h1 className="word ourteam">
                 <span className="char">W</span>
                 <span className="char">h</span>
@@ -31,7 +31,7 @@ export default function WhyLof() {
                 <span className="char">F</span>
                 
               </h1>
-            </div>
+            </div> */}
             </MDBCol>
           </MDBRow>
           <MDBRow className="pt-md-5 d-flex justify-content-start justify-content-md-center align-items-center">

@@ -8,8 +8,8 @@ export default function TermsAndConditions() {
   return (
     <>
     
-    <section className="">
-    <Smoke/>
+
+    <section className="" >
     <Navigation/>
     
     

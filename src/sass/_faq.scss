@@ -3,6 +3,7 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     height: 100vh;
+    background-position: center center;
     // background-attachment: fixed;
 }
 .faq-head{
@@ -59,6 +60,13 @@ Font-family: "AllRound1";
 
 
 @media screen and (max-device-width: 766px){ 
+    .que-ans{
+        height: 50vh !important;
+    }
+    
+    .fullbg{
+        background-image: url(../assets/bg-images/Faq-mobile.png);
+    }
 
     .faq-head h1{
         text-align: center !important;
