@@ -1,15 +1,20 @@
 import { MDBCol, MDBContainer, MDBRow  } from 'mdb-react-ui-kit'
-import React from 'react'
+import React from 'react';
+import Navigation from '../components/Navigation';
+import Bottomnav from '../components/Bottomnav';
 
 export default function TermsAndConditions() {
   return (
     <>
+    <section>
+    <Navigation/>
+    
     <MDBContainer fluid className=" TermAndConditionDiv ">
         <MDBRow className='rowPadding'>
         
           <MDBCol sm={12} className=" text-center">
                 <h1 className='text-light firstH1'  >General <span className='PinkColor'> Terms and Conditions</span></h1>
-                <h2 className='text-light firstH2 pb-5'>for Access and Use of Lonelyfans Website and Services</h2>
+                <h2 className='text-light firstH2 pb-3'>for Access and Use of Lonelyfans Website and Services</h2>
 
           </MDBCol>
           <MDBRow className='termsScroll'>
@@ -220,8 +225,8 @@ export default function TermsAndConditions() {
             </MDBRow>
           </MDBRow>
     </MDBContainer>
-    
-    
+    <Bottomnav/>
+    </section>
     </>
   )
 }

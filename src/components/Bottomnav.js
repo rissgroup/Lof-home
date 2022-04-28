@@ -21,23 +21,23 @@ export default function Bottomnav() {
     
     <MDBContainer fluid fixed='bottom'>
           <MDBRow className="py-2">
-            <MDBCol md={3} sm={12} lg={3} className="text-sm-center">
-              <a href="" className="me-1">
+            <MDBCol md={3} sm={12} lg={3} className="text-center text-md-start">
+              <a href="" className="me-3">
                 <img src={twit} alt="" />
               </a>
-              <a href="" className="me-1">
+              <a href="" className="me-3">
                 <img src={telegram} alt="" />
               </a>
-              <a href="" className="me-1">
+              <a href="" className="me-3">
                 <img src={instagram} alt="" />
               </a>
-              <a href="" className="me-1">
+              <a href="" className="me-3">
                 <img src={reddit} alt="" />
               </a>
-              <a href="" className="me-1">
+              <a href="" className="me-3">
                 <img src={discord} alt="" />
               </a>
-              <a href="" className="me-1">
+              <a href="" className="me-3">
                 <img src={heart} alt="" />
               </a>
             </MDBCol>
@@ -48,13 +48,13 @@ export default function Bottomnav() {
               lg={6}
               className="text-lg-center text-md-center text-sm-start text-center "
             >
-              <Link to="termandConditions" className="me-lg-4 me-md-4 me-2 text-white for-size ">
+              <Link to="/termandConditions" className="me-lg-4 me-md-4 me-2 text-white for-size ">
                 Term and Condition
               </Link>
-              <Link to="privacy" className="me-lg-4 me-md-4 me-2 text-white for-size">
+              <Link to="/privacy" className="me-lg-4 me-md-4 me-2 text-white for-size">
                 Privacy
               </Link>
-              <Link to="riskpolicy" className="me-lg-4 me-md-4 me-2 text-white for-size">
+              <Link to="/riskpolicy" className="me-lg-4 me-md-4 me-2 text-white for-size">
                 Risk Policy
               </Link>
               <Link to="" className="me-lg-4 me-md-4 me-2 text-white for-size">

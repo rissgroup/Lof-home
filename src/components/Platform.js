@@ -1,5 +1,5 @@
 import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Platformslider from "./semicomponents/Platformslider";
 import Mobile1 from "../assets/pl-slider/Mobile.png";
 import Mobile2 from "../assets/pl-slider/Mobilehome3.png";
@@ -9,7 +9,10 @@ import Mobile5 from "../assets/pl-slider/Mobilehome6.png";
 import Mobile6 from "../assets/pl-slider/Mobilehome7.png";
 import Mobile7 from "../assets/pl-slider/Mobilehome8.png";
 import MobileFrame from "../assets/pl-slider/frame.png";
+
+
 export default function LoftPlatform() {
+
   const ImageOneClick = () => {
     SetTitlePart1("Lof 1");
     SetTitlePart2("Platform 1");
@@ -72,7 +75,7 @@ export default function LoftPlatform() {
       <MDBContainer fluid className="mainContainer ">
         <MDBRow>
           <MDBCol lg={12} className="mt-5 ">
-            <h1 className="text-light text-center"> {TitlePart1} <span className="platformSpan">{TitlePart2} </span>{" "}
+            <h1 className="text-light text-center pl-heading"> {TitlePart1} <span className="platformSpan">{TitlePart2} </span>{" "}
             </h1>
           </MDBCol>
         </MDBRow>
